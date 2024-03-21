@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: cyan;
+    z-index: 10;
+}
+
+nav ul {
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+nav ul li a {
+    text-size-adjust: 15vh;
+    font-size: x-large;
+    display: block;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+    color: crimson;
+}
+
+nav ul li a:hover {
+    color: darkorange;
+    border-style: double;
+    border-radius: 40% 40%;
+    border-color: rgb(134, 7, 7);
+    font-weight: 100;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 340px;
+    height: 2vh;
+    border-radius: 7px;
+    margin-left: 70px;
+    padding-left: 20px;
+}
+.search .lxt:hover {
+    background-image: linear-gradient(#f9e6d1,#ffcccb) ;
+}
+
+.btn {
+    border-radius: 5px;
+    border: saddlebrown;
+    background-color: aquamarine;
+    color: rgb(134, 7, 7);
+    margin-left: 10px;
+    text-align: center;
+    padding: 4px;
+}
+
+.btn:hover {
+    color: darkorange;
+    border-style: double;
+    border-radius: 40% 40%;
+    border-color: rgb(134, 7, 7);
+    font-weight: 100;
+}
+
+.container {
+    min-height: calc(100vh - 5vh - 15vh);
+}
+
+.ramu {
+    margin: 2vh 4vw;
+    padding: 2vw;
+    border: aqua;
+    border-width: 4px;
+    height: 50vh;
+    background-image: url('https://www.foto360kolkata.com/assets/img/blog/best-ecommerce-cataloging-services-in-kolkata.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    background-attachment: scroll;
+}
+
+.box {
+    width: 50vh;
+    padding: 20px;
+}
+.box .txt {
+    margin: 8px;
+    padding: 2px;
+    padding-right: 80px;
+}
+.box .txt:hover {
+    background-image: linear-gradient(#f9e6d1,#ffcccb) ;
+}
+.box .txt1:hover {
+    background-image: radial-gradient(#f9e6d1 ,#ffcccb );
+}
+.box .txt1 {
+    margin: 8px;
+    padding: 2px;
+    padding-right: 80px;
+}
+.box .btn1 {
+    margin: 4px;
+    padding: 6px;
+}
+.box .btn1:hover {
+    background-image: linear-gradient(#f9eaea,#ffafbd) ;
+    border-radius: 30%;
+}
+.box .pic2 {
+    border-radius: 45%;
+    width: 20vw;
+    height: 35vh;
+    margin-left: 15px;
+}
+.box .pic2:hover {
+    /* background-color:bright aqua;
+    border-width: 1vb solid aqua; */
+    border:1vb solid aqua ;
+    border-color: bright aquamarine;
+    border-style: solid aqua;
+    border-width: 0.35vw;
+}
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin: 2vh 4vw;
+    padding: 2vw;
+    border: aqua;
+    border-width: 2px;
+    height: 20vh;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.cont1:hover {
+    border-color: bisque;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.cont1 h2:hover {
+    text-decoration: solid;
+    color: blueviolet;
+}
+
+.touch {
+    width: 10vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch img {
+    width: 7vw;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.touch1 {
+    width: 10vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch1 img {
+    width: 7vw;
+    padding: 13px;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch1 img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.touch2 {
+    width: 12vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch2 img {
+    width: 7vw;
+    margin-bottom: 6px;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch2 img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.touch3 {
+    width: 10vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch3 img {
+    width: 7vw;
+    padding: 10px;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch3 img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.touch4 {
+    width: 10vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch4 img {
+    width: 7vw;
+    padding: 7px;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch4 img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.touch5 {
+    width: 10vw;
+    height: 10vw;
+    background-color: azure;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 14px;
+    padding-top: 6px;
+}
+
+.touch5 img {
+    width: 7vw;
+    padding: 19px;
+    margin-top: 4px;
+}
+
+@keyframes slide {
+    from {
+        width: 7vw;
+    }
+
+    to {
+        width: 7.5vw;
+    }
+}
+
+.touch5 img:hover {
+    animation-name: slide;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+footer {
+    height: 15vh;
+    background-color: black;
+    color: aqua;
+    font-family: sans-serif;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
