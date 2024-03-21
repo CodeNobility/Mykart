@@ -3,10 +3,13 @@
 
 ## File Structure:
 
-.index.html: Contains the main HTML structure of the project, including the layout, navigation, product  display, and footer.
-.css/style.css: Stylesheet file responsible for defining the visual appearance of the HTML elements.
-.js/index.js: JavaScript file, currently empty, intended for potential future enhancements or functionality.
-.img/: Directory containing images used in the project, such as product photos and icons.
+- index.html: Contains the main HTML structure of the project, including the layout, navigation, product  display, and footer.
+
+- css/style.css: Stylesheet file responsible for defining the visual appearance of the HTML elements.
+
+- js/index.js: JavaScript file, currently empty, intended for potential future enhancements or functionality.
+
+- img/: Directory containing images used in the project, such as product photos and icons.
 
 ## Usage:
  To view the project, simply open the index.html file in a web browser. You can navigate through the different  sections using the links in the navigation bar. The search functionality allows users to search for products  by entering keywords.
